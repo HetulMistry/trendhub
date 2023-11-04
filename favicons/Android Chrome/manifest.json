@@ -1,0 +1,17 @@
+{
+  "name": "TrendHub",
+  "icons": [
+    {
+      "src": "/trendhub-color-72.png",
+      "sizes": "72×72",
+      "type": "image/png",
+      "density": "1.5"
+    },
+    {
+      "src": "/trendhub-color-96.png",
+      "sizes": "96×96",
+      "type": "image/png",
+      "density": "2.0"
+    }
+  ]
+}
