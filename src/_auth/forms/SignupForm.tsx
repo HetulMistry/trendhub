@@ -38,9 +38,9 @@ const SignupForm = () => {
     },
   });
 
-  const { mutateAsync: createUserAccount, isLoading: isCreatingAccount } =
+  const { mutateAsync: createUserAccount, isLoading: isCreatingAccount }: any =
     useCreateUserAccount();
-  const { mutateAsync: signInAccount, isLoading: isSigningInUser } =
+  const { mutateAsync: signInAccount, isLoading: isSigningInUser }: any =
     useSignInAccount();
 
   const handleSignup = async (user: z.infer<typeof SignupValidation>) => {

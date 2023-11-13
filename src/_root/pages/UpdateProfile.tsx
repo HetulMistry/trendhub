@@ -36,7 +36,7 @@ const UpdateProfile = () => {
   });
 
   const { data: currentUser } = useGetUserById(id || "");
-  const { mutateAsync: updateUser, isLoading: isLoadingUpdate } =
+  const { mutateAsync: updateUser, isLoading: isLoadingUpdate }: any =
     useUpdateUser();
 
   if (!currentUser)
